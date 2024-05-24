@@ -1,0 +1,137 @@
+:root {
+    --bg-color: #edf2f8;
+    --purple-bg: #733fc8;
+    --gray-bg: #49556b;
+    --white-bg: #ffffff;
+    --blue-bg: #19202e
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr;
+}
+
+.card-1 {
+    background-color: var(--purple-bg);
+    margin: 24px;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+    width: 310px;
+    
+}
+.card-2 {
+    background-color: var(--gray-bg);
+    margin: 24px;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+    width: 310px;
+    
+}
+.card-3 {
+    background-color: var(--white-bg);
+    margin: 24px;
+    border-radius: 20px;
+    color: #49556b;
+    padding: 30px;
+    width: 310px;
+    
+}
+.card-4 {
+    background-color: var(--blue-bg);
+    margin: 24px;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+    width: 310px;
+    
+}
+.card-5 {
+    background-color: var(--white-bg);
+    margin: 24px;
+    border-radius: 20px;
+    color: #49556b;
+    padding: 30px;
+    width: 310px;
+    
+}
+
+header {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+
+.names {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.names .status {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(158, 157, 157, 0.685);
+}
+
+img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.dark {
+    border: 4px solid #926fcc;
+}
+
+.texts-dark {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+
+.texts-dark .sec-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff8e
+}
+
+
+.texts-light {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+
+
+.texts-light .sec-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #49556ba1;
+}
+
+.main-text {
+    font-size: 17px;
+    font-weight: 500;
+}
